@@ -1,0 +1,11 @@
+name: CustomParticle
+author: nimble0
+version: 0.1
+description: Spawn custom particle
+
+main: customparticle.main.ParticleMain
+
+commands:
+  spawnParticle:
+    usage: /<command> <type>
+    description: Spawn custom particle
