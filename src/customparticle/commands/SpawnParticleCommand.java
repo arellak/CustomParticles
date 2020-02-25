@@ -15,15 +15,13 @@ import org.bukkit.entity.Player;
 public class SpawnParticleCommand implements CommandExecutor {
 
     private ParticleMain main;
-    private double i;
-
+    
     public SpawnParticleCommand(ParticleMain main) {
         this.main = main;
     }
 
     @Override
     public boolean onCommand(CommandSender cs, Command cmd, String label, String[] args) {
-        i = 0;
         if(args.length < 1) {
             return true;
         }
